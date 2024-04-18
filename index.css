@@ -148,7 +148,7 @@ hr{
 
 footer{
     background-color: white;
-    position: fixed; /* Stick the footer to the bottom of the viewport */
+    /* position:sticky;Stick the footer to the bottom of the viewport */
     bottom: 0; /* Stick the footer to the bottom */
     width: 100%; /* Ensure the footer spans the entire width */
     background-color: white;
@@ -218,3 +218,61 @@ footer{
     color: white;
     transform: scale(1.3);
 } */
+
+@media (max-width: 700px){
+    .container{
+        width: 100%;
+    }
+    .contentbox{
+        width: 90%;
+        margin: auto;
+    }
+    .navitems a{
+        font-size: 14px;
+        
+    }
+    .navitems img{
+        height: 20px;
+    }
+    li img{
+        height: 40px;
+        
+    }
+    .leftbox{
+        text-align: center;
+    }
+    .leftbox h1{
+        font-size: 30px;
+    }
+    .leftbox  p{
+        font-size: 12px;
+    }
+    .leftbox h1 span{
+       font-size: 30px;
+    }
+    .leftbox a{
+        width: auto;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .rightbox img{
+        height: auto;
+        width: 100%;
+    }
+    .navcontainer{
+        margin-top: 10px;
+    }
+    .socialIcons{
+        flex-wrap: wrap;
+    }
+    .socialIcons a{
+        margin: 5px;
+    }
+    .socialIcons a i{
+      font-size: 25px;
+        
+    }
+    .footerBottom p{
+        font-size: 12px;
+    }
+}
